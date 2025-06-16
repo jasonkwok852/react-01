@@ -1,0 +1,22 @@
+/* 自訂樣式，增強計數器視覺效果 */
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.counter-container {
+  border: 2px solid #e2e8f0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.counter-container:hover {
+  transform: scale(1.02);
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
